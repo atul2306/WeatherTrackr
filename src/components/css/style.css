@@ -152,10 +152,12 @@
     }
   }
   
-  @media (max-width:350px){
+  @media (max-width:400px){
     .box{
-      width: 100vh;
-      height: 80vh;
+      width: 70vh;
+      height: 100vh;
+      padding-left: 0.5rem;
+     
       display: block;
       margin: auto;
       justify-content: center;
@@ -167,7 +169,7 @@
     }
     .mysize{
       font-size: 10px;
-      color: black;
+      text-transform: uppercase;
       
 
     }
